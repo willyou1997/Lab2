@@ -267,7 +267,6 @@ public class h {
 
 		//List<String> randomPath=new ArrayList<String>(); 
 		String randomPath = mVexs[s];
-		//System.out.print(randomPath);
 		System.out.print("continue?(Y/N):");
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
