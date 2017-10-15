@@ -5,13 +5,12 @@ import java.util.*;
 
 public class h {
 	 
-	 private static String[] mVexs;       // 顶点集合
-	 private static int[][] mMatrix;  // 邻接矩阵
+	 private static String[] mVexs; 
+	 private static int[][] mMatrix; 
 	 private static int vlen; 
 	 private static int[][] dist=new int[100][100];   
 	 private static int[][] path = new int[100][100];    
 	 private static List<Integer> result=new ArrayList<Integer>(); 
-	 //private static int INF = Integer.MAX_VALUE; 
 	 private static int INF = 99; 
 	 static BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 	
